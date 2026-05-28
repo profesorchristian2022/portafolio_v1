@@ -1,14 +1,31 @@
+/* ============================= */
+/* 1. RESET GENERAL */
+/* ============================= */
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* ============================= */
+/* 2. ESTILOS GENERALES */
+/* ============================= */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f6f8;
     color: #222;
 }
+
+main {
+    width: 1000px;
+    margin: 30px auto;
+}
+
+/* ============================= */
+/* 3. HEADER Y NAVEGACIÓN */
+/* ============================= */
 
 header {
     background-color: #1f2937;
@@ -32,6 +49,10 @@ nav a:hover {
     color: #38bdf8;
 }
 
+/* ============================= */
+/* 4. SECCIÓN HERO / INICIO */
+/* ============================= */
+
 .hero {
     background-color: #2563eb;
     color: white;
@@ -49,6 +70,10 @@ nav a:hover {
     margin-bottom: 25px;
 }
 
+/* ============================= */
+/* 5. BOTONES */
+/* ============================= */
+
 .boton {
     background-color: white;
     color: #2563eb;
@@ -62,10 +87,9 @@ nav a:hover {
     background-color: #e5e7eb;
 }
 
-main {
-    width: 1000px;
-    margin: 30px auto;
-}
+/* ============================= */
+/* 6. SECCIONES GENERALES */
+/* ============================= */
 
 .seccion {
     background-color: white;
@@ -86,6 +110,9 @@ main {
     margin-bottom: 10px;
 }
 
+/* ============================= */
+/* 7. SECCIÓN SOBRE MÍ */
+/* ============================= */
 
 .sobre-mi-contenido {
     display: flex;
@@ -104,6 +131,10 @@ main {
     line-height: 1.7;
 }
 
+/* ============================= */
+/* 8. SECCIÓN HABILIDADES */
+/* ============================= */
+
 .habilidades {
     margin-top: 15px;
 }
@@ -117,6 +148,10 @@ main {
     border-radius: 20px;
     font-weight: bold;
 }
+
+/* ============================= */
+/* 9. SECCIÓN PROYECTOS */
+/* ============================= */
 
 .contenedor-proyectos {
     display: flex;
@@ -135,6 +170,31 @@ main {
     color: #2563eb;
     margin-bottom: 10px;
 }
+
+/* ============================= */
+/* 10. SECCIÓN FORMACIÓN */
+/* ============================= */
+
+.formacion-item {
+    background-color: #f9fafb;
+    border-left: 5px solid #2563eb;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.formacion-item h3 {
+    color: #2563eb;
+    margin-bottom: 10px;
+}
+
+.formacion-item p {
+    margin-bottom: 8px;
+}
+
+/* ============================= */
+/* 11. FOOTER */
+/* ============================= */
 
 footer {
     background-color: #1f2937;
